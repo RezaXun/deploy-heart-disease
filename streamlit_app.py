@@ -1,9 +1,11 @@
-pip install imbalanced-learn
+
 pip install scikit-learn==1.2.2
 import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import imbalanced-learn
+import scikit-learn==1.2.2
 from imblearn.over_sampling import SMOTE
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.neighbors import KNeighborsClassifier
